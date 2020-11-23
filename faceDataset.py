@@ -1,7 +1,7 @@
 import cv2
 import os
 datasets = 'datasets'  
-subdata = 'naren'     
+subdata = 'name_your_dataset'     
 
 path = os.path.join(datasets, subdata)
 if not os.path.isdir(path):
